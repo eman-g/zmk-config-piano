@@ -1,0 +1,125 @@
+[
+  [
+    {
+      "x": 1,
+      "a": 7
+    },
+    "esc",
+    {
+      "x": 9,
+      "a": 4,
+      "fa": [
+        1
+      ]
+    },
+    "q\n\n\n\n\n\n\n\n\n<i class='kb kb-Unicode-BackSpace-DeleteLeft-Big'></i>"
+  ],
+  [
+    {
+      "y": -0.75,
+      "x": 2,
+      "a": 7
+    },
+    "ctrl + shift + tab",
+    {
+      "x": 7,
+      "f": 3
+    },
+    "&uarr;"
+  ],
+  [
+    {
+      "y": -0.75,
+      "x": 3
+    },
+    "ctrl + tab",
+    {
+      "x": 5,
+      "a": 4
+    },
+    "<i class='fa fa-windows'></i> + V\n\n\n\n\n\n\n\n\n<i class='fa fa-windows'></i> + C"
+  ],
+  [
+    {
+      "y": -0.5,
+      "x": 1,
+      "fa": [
+        2
+      ]
+    },
+    "<i class='fa fa-home'></i>\n\n\n\n\n\n\n\n\nDEL",
+    {
+      "x": 9,
+      "fa": [
+        1
+      ]
+    },
+    "ctrl + <i class='fa fa-windows'></i> + shift + $\n\n\n\n\n\n\n\n\n&rarr;"
+  ],
+  [
+    {
+      "y": -0.75,
+      "h": 1.5
+    },
+    "<i class='fa fa-windows'></i> + ~\n\n\n\n\n\n\n\n\ntab",
+    {
+      "x": 1,
+      "a": 7,
+      "f": 3
+    },
+    "<i class='fa fa-windows'></i> + [",
+    {
+      "x": 7,
+      "f": 3
+    },
+    "&darr;",
+    {
+      "x": 1,
+      "fa": [
+        9
+      ],
+      "h": 1.5
+    },
+    "&crarr;"
+  ],
+  [
+    {
+      "y": -0.75,
+      "x": 3,
+      "f": 3
+    },
+    "<i class='fa fa-windows'></i> + ]",
+    {
+      "x": 5,
+      "a": 4,
+      "fa": [
+        1
+      ]
+    },
+    "tab\n\n\n\n\n\n\n\n\n&larr;"
+  ],
+  [
+    {
+      "y": -0.5,
+      "x": 4,
+      "f": 3,
+      "h": 1.5
+    },
+    "shift\n\n\n\n\n\n\n\n\nalpha1",
+    {
+      "a": 7,
+      "h": 1.5
+    },
+    "",
+    {
+      "x": 1,
+      "h": 1.5
+    },
+    "",
+    {
+      "f": 3,
+      "h": 1.5
+    },
+    "<i class='fa fa-windows'></i>"
+  ]
+]

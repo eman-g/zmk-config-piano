@@ -1,0 +1,119 @@
+[
+  [
+    {
+      "x": 1,
+      "fa": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    "\n\n\nctrl\n\n\n\n\n\nl",
+    {
+      "x": 9
+    },
+    "\n\n\nctrl\n\n\n\n\n\no"
+  ],
+  [
+    {
+      "y": -0.75,
+      "x": 2
+    },
+    "\n\n\nalt\n\n\n\n\n\ng",
+    {
+      "x": 7
+    },
+    "\n\n\nalt\n\n\n\n\n\nu"
+  ],
+  [
+    {
+      "y": -0.75,
+      "x": 3,
+      "fa": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "<i class='kb kb-logo-windows-8'></i>\n\n\n\n\n\n\n\n\nd",
+    {
+      "x": 5
+    },
+    "<i class='kb kb-logo-windows-8'></i>\n\n\n\n\n\n\n\n\nh"
+  ],
+  [
+    {
+      "y": -0.5,
+      "x": 1
+    },
+    "\n\n\nSM2\n\n\n\n\n\ns",
+    {
+      "x": 9
+    },
+    "\n\n\nSM2\n\n\n\n\n\na"
+  ],
+  [
+    {
+      "y": -0.75,
+      "h": 1.5
+    },
+    "\n\n\nNM1\n\n\n\n\n\ni",
+    {
+      "x": 1
+    },
+    "\n\n\nSM1\n\n\n\n\n\nr",
+    {
+      "x": 7
+    },
+    "\n\n\nSM1\n\n\n\n\n\ne",
+    {
+      "x": 1,
+      "h": 1.5
+    },
+    "\n\n\nNM1\n\n\n\n\n\nc"
+  ],
+  [
+    {
+      "y": -0.75,
+      "x": 3
+    },
+    "\n\n\nsys\n\n\n\n\n\nt",
+    {
+      "x": 5
+    },
+    "\n\n\nsys\n\n\n\n\n\nn"
+  ],
+  [
+    {
+      "y": -0.5,
+      "x": 4,
+      "h": 1.5
+    },
+    "ctrl + shift + alt\n\n\n\n\n\n\n\n\n&mdash;",
+    {
+      "a": 7,
+      "f": 3,
+      "h": 1.5
+    },
+    "repeat",
+    {
+      "x": 1,
+      "f": 3,
+      "h": 1.5
+    },
+    "alpha2 caps",
+    {
+      "f": 3,
+      "h": 1.5
+    },
+    "alpha2"
+  ]
+]
