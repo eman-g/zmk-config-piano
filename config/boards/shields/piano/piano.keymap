@@ -215,8 +215,8 @@
 
 		ctrl {
 		bindings = <
-				 	&none  &none 	&none		              &none 	&none 		&none 			
-		&none	&kp LC(X) &kp LC(C) 	&kp LC(V)		&none  	&none 	&none 	&none 
+				 	&kp LC(A)  &kp LC(LG(LEFT)) &kp LC(LG(RIGHT))	&none 	&none 		&none 			
+		&none	&kp LC(X) &kp LC(C) 	&kp LC(V)		&none  	&none 	&none &kp LC(LS(INSERT)) 
 		 			 		 				&kp LC(Z) &kp LC(S)   &none &none		
 		>;
 		};
