@@ -30,6 +30,7 @@
 #define BT 6	
 #define AL2U 7
 #define CTRL 8
+#define GMN 9
 / { 
     combos {
         compatible = "zmk,combos";
