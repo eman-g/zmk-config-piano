@@ -33,6 +33,11 @@
 / { 
     combos {
         compatible = "zmk,combos";
+        combo_gmn {
+            timeout-ms = <30>;
+	    key-positions = <7 1 9>;
+            bindings = <&to GMN>;
+        };
         combo_sys {
             timeout-ms = <30>;
 	    key-positions = <3 4 5>;
@@ -218,6 +223,14 @@
 				 	&kp LC(A)  &kp LC(LG(LEFT)) &kp LC(LG(RIGHT))	&none 	&none 		&none 			
 		&none	&kp LC(X) &kp LC(C) 	&kp LC(V)		&none  	&none 	&none &kp LC(LS(INS)) 
 		 			 		 				&kp LC(Z) &kp LC(S)   &none &none		
+		>;
+		};
+
+		gmn {
+		bindings = <
+				 	&kp ESC  &kp W &kp LC(LG(RIGHT))	&none 	&none 		&none 			
+		&hm_l LSHIFT DOT 	&kp A &kp S &kp D		&none  	&none 	&none &none
+		 			 		 				&kp SPC &kp LCTRL   &none &none		
 		>;
 		};
         
