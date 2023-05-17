@@ -228,9 +228,9 @@
 
 		gmn {
 		bindings = <
-				 	&kp ESC  &kp W &kp LC(LG(RIGHT))	&none 	&none 		&none 			
+				 	&kp ESC  &kp W &kp E	&none 	&none 		&none 			
 		&hm_l LSHIFT DOT 	&kp A &kp S &kp D		&none  	&none 	&none &none
-		 			 		 				&kp SPC &kp LCTRL   &none &none		
+		 			 		 				&kp SPC &kp LCTL   &none &none		
 		>;
 		};
         
