@@ -31,6 +31,8 @@
 #define AL2U 7
 #define CTRL 8
 #define GMN 9
+#define SCCTRL 10
+#define SCCAM 10
 / { 
     combos {
         compatible = "zmk,combos";
@@ -38,6 +40,12 @@
             timeout-ms = <30>;
 	    key-positions = <7 1 9>;
             bindings = <&to GMN>;
+        };
+        combo_sc {
+            timeout-ms = <30>;
+	    key-positions = <3 5>;
+            bindings = <&to SCCTRL>;
+	    			layers = <GMN>; 
         };
         combo_sys {
             timeout-ms = <30>;
@@ -232,6 +240,22 @@
 				 	&kp ESC  &kp W &kp E	&none 	&none 		&none 			
 		&hm_l LSHIFT DOT 	&kp A &kp S &kp D		&none  	&none 	&none &none
 		 			 		 				&kp SPC &kp LCTL   &none &none		
+		>;
+		};
+
+		scii-ctrl {
+		bindings = <
+				 	&kp ESC  &kp W &kp E	&none 	&none 		&none 			
+		&hm_l LSHIFT DOT 	&kp A &kp S &kp D		&none  	&none 	&none &none
+		 			 		 				&kp SPC &hl_l SCCAM   &none &none		
+		>;
+		};
+
+		scii-cam {
+		bindings = <
+				 	&kp F5 &kp F6 &kp F7	&none 	&none 		&none 			
+		 &hm_l LCTL &kp F8 	&kp LS(F5) &kp LS(F6)	&none  	&none 	&none &none
+		 			 		 				&kp BKSP &none  &none &none		
 		>;
 		};
         
