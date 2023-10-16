@@ -244,7 +244,7 @@
 		gmn {
 		bindings = <
 				 	&kp ESC  &kp W &kp E	&none 	&none 		&none 			
-		&hm_l LSHIFT &kp A &kp S &kp D		&none  	&none 	&none &none
+		&hm_l LSHIFT DOT &kp A &kp S &kp D		&none  	&none 	&none &none
 		 			 		 				&kp SPC &kp LCTL   &none &none		
 		>;
 		};
@@ -260,7 +260,7 @@
 		scii-cam {
 		bindings = <
 				 	&kp F5 &kp F6 &kp F7	&none 	&none 		&none 			
-		 &kp LCTL &kp F8 	&kp LS(F5) &kp LS(F6)	&none  	&none 	&none &none
+		 &kp LCTL &kp F8 &kp LS(F5) &kp LS(F6)	&none  	&none 	&none &none
 		 			 		 				&kp BKSP &kp LC(F) &none &none		
 		>;
 		};
