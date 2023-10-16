@@ -32,7 +32,7 @@
 #define CTRL 8
 #define GMN 9
 #define SCCTRL 10
-#define SCCAM 10
+#define SCCAM 11
 / { 
     combos {
         compatible = "zmk,combos";
@@ -252,7 +252,7 @@
 		scii-ctrl {
 		bindings = <
 				 	&kp ESC  &kp W &kp E	&none 	&none 		&none 			
-		&kp LSHIFT &kp A &kp S &kp D		&none  	&none 	&none &none
+		&kp X &kp A &kp S &kp D		&none  	&none 	&none &none
 		 			 		 				&kp SPC &sccammacro    &none &none		
 		>;
 		};
