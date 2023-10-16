@@ -252,7 +252,7 @@
 		scii-ctrl {
 		bindings = <
 				 	&kp ESC  &kp W &kp E	&none 	&none 		&none 			
-		&hm_l LSHIFT DOT 	&kp A &kp S &kp D		&none  	&none 	&none &none
+		&kp LSHIFT DOT 	&kp A &kp S &kp D		&none  	&none 	&none &none
 		 			 		 				&kp SPC &sccammacro    &none &none		
 		>;
 		};
