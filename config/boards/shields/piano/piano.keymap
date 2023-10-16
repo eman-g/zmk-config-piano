@@ -260,7 +260,7 @@
 		scii-cam {
 		bindings = <
 				 	&kp F5 &kp F6 &kp F7	&none 	&none 		&none 			
-		 &hm_l LCTL BKSP &kp F8 	&kp LS(F5) &kp LS(F6)	&none  	&none 	&none &none
+		 &kp LCTL BKSP &kp F8 	&kp LS(F5) &kp LS(F6)	&none  	&none 	&none &none
 		 			 		 				&kp BKSP &kp LC(F) &none &none		
 		>;
 		};
