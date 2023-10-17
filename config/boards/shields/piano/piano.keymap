@@ -32,7 +32,9 @@
 #define CTRL 8
 #define GMN 9
 #define SCCTRL 10
-#define SCCAM 11
+#define SCGRP 11
+#define SCCAM 12
+
 / { 
     combos {
         compatible = "zmk,combos";
@@ -252,15 +254,23 @@
 		scii-ctrl {
 		bindings = <
 				 	&kp ESC  &kp W &kp E	&none 	&none 		&none 			
-		&kp X &kp A &kp S &kp D		&none  	&none 	&none &none
-		 			 		 				&kp SPC &sccammacro    &none &none		
+		 &lt 11 B &kp A &kp S &kp D		&none  	&none 	&none &none
+		 			 		 				&kp SPC &lt 12 B    &none &none		
+		>;
+		};
+
+		scii-grp {
+		bindings = <
+				 	&kp 1 &kp 2 &kp 3	&none 	&none 		&none 			
+		 &none &kp 4 &kp 5 &kp 6	&none  	&none 	&none &none
+		 			 		 				&kp LCTL &kp LSHIFT &none &none		
 		>;
 		};
 
 		scii-cam {
 		bindings = <
 				 	&kp F5 &kp F6 &kp F7	&none 	&none 		&none 			
-		 &mt LCTL LC(F) &kp F8 &kp LS(F5) &kp LS(F6)	&none  	&none 	&none &none
+		 &kp LCTL &kp F8 &kp LS(F5) &kp LS(F6)	&none  	&none 	&none &none
 		 			 		 				&kp BKSP &kp LC(F) &none &none		
 		>;
 		};
